@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.GamePanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnPauza = new System.Windows.Forms.Button();
+            this.btnNastavi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTim1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,35 +54,35 @@
             this.GamePanel.TabIndex = 0;
             this.GamePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.GamePanel_Paint);
             // 
-            // button1
+            // btnStart
             // 
-            this.button1.Location = new System.Drawing.Point(12, 301);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(299, 41);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "START";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.btnStart.Location = new System.Drawing.Point(12, 301);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(299, 41);
+            this.btnStart.TabIndex = 1;
+            this.btnStart.Text = "START";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // button2
+            // btnPauza
             // 
-            this.button2.Location = new System.Drawing.Point(12, 348);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(299, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "PAUZA";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.btnPauza.Location = new System.Drawing.Point(12, 348);
+            this.btnPauza.Name = "btnPauza";
+            this.btnPauza.Size = new System.Drawing.Size(299, 41);
+            this.btnPauza.TabIndex = 1;
+            this.btnPauza.Text = "PAUZA";
+            this.btnPauza.UseVisualStyleBackColor = true;
+            this.btnPauza.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // button3
+            // btnNastavi
             // 
-            this.button3.Location = new System.Drawing.Point(12, 395);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(299, 41);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "NASTAVI";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.btnNastavi.Location = new System.Drawing.Point(12, 395);
+            this.btnNastavi.Name = "btnNastavi";
+            this.btnNastavi.Size = new System.Drawing.Size(299, 41);
+            this.btnNastavi.TabIndex = 1;
+            this.btnNastavi.Text = "NASTAVI";
+            this.btnNastavi.UseVisualStyleBackColor = true;
+            this.btnNastavi.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label1
             // 
@@ -174,9 +174,9 @@
             this.Controls.Add(this.lblTim1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnNastavi);
+            this.Controls.Add(this.btnPauza);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.GamePanel);
             this.Name = "Bazen";
             this.Text = "Bazen";
@@ -188,9 +188,9 @@
         #endregion
 
         private System.Windows.Forms.Panel GamePanel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnPauza;
+        private System.Windows.Forms.Button btnNastavi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTim1;
         private System.Windows.Forms.Label label2;

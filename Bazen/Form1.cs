@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bazen
@@ -48,7 +42,6 @@ namespace Bazen
 
     public class Args
     {
-        public Plivac[] tim1, tim2, tim3, tim4;
         public string tim1Naziv, tim2Naziv, tim3Naziv, tim4Naziv;
         public Color boja1, boja2, boja3, boja4;
     }
